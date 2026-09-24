@@ -21,7 +21,7 @@ export const Route = createFileRoute("/architecture")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: Architecture;
+  component: Architecture,
 });
 
 const diagram = `ELECTRICAL (low voltage)
