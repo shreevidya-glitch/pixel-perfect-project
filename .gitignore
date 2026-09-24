@@ -30,3 +30,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local hardware/project secrets - never commit
+secrets.h
+config_local.h
+*.secret
+firmware/*_local.ino
